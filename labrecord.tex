@@ -351,51 +351,43 @@ Curl is a tool to transfer data from or to a server, using one of the supported 
      If command is specified, command is executed on the remote host instead
      of a login shell.
     
-The most basic form of the command 
+BASIC COMMAND
 
-\hspace{10mm}ssh remote\_host
-
+\begin{verbatim}
+$ ssh remote_host
+\end{verbatim}
 \hspace{10mm}The remote\_host in this example is the IP address or domain name that you are trying to connect to.
-
-\hspace{10mm}If your username is different on the remote system, you can specify it by using this syntax:
-
-\hspace{10mm} \$ ssh remote\_username@remote\_host
+If your username is different on the remote system, you can specify it by using this syntax:
+\begin{verbatim}
+$ ssh remote_username@remote_host
+\end{verbatim}
 
 TO COPY FILES
+\begin{verbatim}
+$ scp source destination
+\end{verbatim}
 
-\hspace{10mm} \$ scp source destination
+COPY A FILE FROM HOST TO LOCAL
 
-Copy a file from local to host
+\begin{verbatim}
+$ scp localhostfile.txt jsmith@remotehost.example.com:/home/jsmith/localhostfile.txt
+\end{verbatim}
 
-\hspace{10mm}Code:
-
-\hspace{10mm}\$scp jsmith@remotehost.example.com:/home/jsmith/remotehostfile.txt
-
-\hspace{10mm}remotehostfile.txt
-
-Copy file from host to local
-
-\hspace{10mm}Code:
-
-\hspace{10mm}\$scp localhostfile.txt
-
-\hspace{10mm}jsmith@remotehost.example.com:/home/jsmith/localhostfile.txt
-
-Copy file from host to local
-
-\hspace{10mm}Code:
-
-\hspace{10mm}\$scp localhostfile.txt
-
-\hspace{10mm}jsmith@remotehost.example.com:/home/jsmith/localhostfile.txt
+COPY A FILE FROM LOCAL TO HOST
+\begin{verbatim}
+$ scp localhostfile.txt jsmith@remotehost.example.com:/home/jsmith/localhostfile.txt
+\end{verbatim}
 
 TO SHUTDOWN CONNECTED COMPUTER 
+		\begin{verbatim}
+
+		$ ssh user@remote\_computer
 		
-		\hspace{10mm}\$ssh user@remote\_computer
+		$ sudo poweroff
 		
-		\hspace{10mm}\$sudo poweroff
+		$ sudo reboot 
 		
-		\hspace{10mm}\$sudo reboot 
+		\end{verbatim}
 
 
 \subsection{wget}
@@ -428,6 +420,7 @@ Wget has been designed for robustness over slow or unstable network connections;
 The FTP (File Transfer Protocol) utility program is commonly used for copying files to and from other computers. These computers may be at the same site or at different sites thousands of miles apart. FTP is a general protocol that works on UNIX systems as well as a variety of other (non-UNIX) systems.
 
 To connect your local machine to the remote machine, type
+
 \hspace{10mm} ftp machinename
 
 where machinename is the full machine name of the remote machine, e.g., some-url.com. If the name of the machine is unknown, you may type
@@ -438,7 +431,7 @@ where machinennumber is the net address of the remote machine, e.g., 129.82.45.1
 
 When you enter your own loginname and password for the remote machine, it returns the prompt
 
-\hspace{10mm}ftp>
+\hspace{10mm}ftp $>$
 
 and permits you access to your own home directory on the remote machine. You should be able to move around in your own directory and to copy files to and from your local machine using the FTP interface commands.
 
@@ -463,18 +456,18 @@ quit & exit ftp environment\\
 
 \subsection{grep}
 
-GREP ? Global Regular Expression Print
+GREP : Global Regular Expression Print
 
  	\hspace{10mm}Searches for text in a file
 	
  	\hspace{10mm}Can search for simple words.
 	
- 	\hspace{10mm}Can look for ?regular expression?;more complex charector strings( words followed by any no of spaces, followed by a digit or lowercase letter).
+ 	\hspace{10mm}Can look for regular expression - more complex charecter strings( words followed by any no of spaces, followed by a digit or lowercase letter).
 
 
 	Searching the given string
 
-		     \hspace{10mm}`\$ grep ?literal\_string? ' filename To search a specific string in a specified file
+		     \hspace{10mm}`\$ grep $<$literal\_string$>$ ' filename To search a specific string in a specified file
 
 
 	Case insensitive search
@@ -749,12 +742,12 @@ Use the command git init when inside your project?s home folder to initialise an
 Command & Use\\
 \hline
 git init & create a new repository\\
-git clone <repo>& clone the repository on to the local machine\\
+git clone $<$repo$>$& clone the repository on to the local machine\\
 git status &get the status of your local repository. It tells you how your project is progressing when compared to the remote repository\\
-git add <filename> & tell git to start tracking the file\\
+git add $<$filename$>$ & tell git to start tracking the file\\
 git add . & add all files\\
 git commit  & commits all the added files. You must provide a commit message in the text editor that opens up\\
-git commit -m?commit message" & a commit command with the message\\
+git commit -m"commit message" & a commit command with the message\\
 git push origin master & save the committed changes to server\\
 git pull -all & pull all changes from bitbucket server to your local repository\\
 \noalign{\smallskip} \hline \hline \noalign{\smallskip}
@@ -808,13 +801,13 @@ How to use checkout
 
 \hspace{10mm} \textit{git log --oneline} will show the ID of each commit made 
 
-\hspace{10mm} use textit{git checkout <commit\_id>} to go to that commit
+\hspace{10mm} use textit{git checkout $<$commit\_id$>$} to go to that commit
 
 \item git revert
 
-\hspace{10mm} git revert <commit> can also be used to undo changes. 
+\hspace{10mm} git revert $<$commit$>$ can also be used to undo changes. 
 
-\hspace {10mm} This generates a new commit that undoes all of the changes introduced in <commit>  and apply it to the current branch
+\hspace {10mm} This generates a new commit that undoes all of the changes introduced in $<$commit$>$  and apply it to the current branch
 
 \item git reset
 
@@ -824,9 +817,9 @@ How to use checkout
 
 \hspace{10mm} git reset - - hard is used to reset the staging area and the working directory to match the most recent commit.  The - - hard tag tells git to overwrite all changes in the working directory.
 
-\hspace{10mm} git reset <commit> Move the current branch tip backward to <commit> , reset the staging area to match, but leave the working directory alone.
+\hspace{10mm} git reset $<$commit$>$ Move the current branch tip backward to $<$commit$>$ , reset the staging area to match, but leave the working directory alone.
 
-\hspace{10mm} git reset - - hard <commit> moves the branch tip backwards to <commit> and resets both the staging area and working directory to match.
+\hspace{10mm} git reset - - hard <commit> moves the branch tip backwards to $<$commit$>$ and resets both the staging area and working directory to match.
 
 
 \end{itemize}
@@ -846,9 +839,9 @@ How to use checkout
 
 \item Comparing Different Revisions
 
-\hspace{10mm} git diff <commit> <commit> can be used to compare two different commits
+\hspace{10mm} git diff $<$commit$>$ $<$commit$>$ can be used to compare two different commits
 
-\hspace{10mm} here the <commit> is the commit id of the specific commit
+\hspace{10mm} here the $<$commit$>$ is the commit id of the specific commit
 
 \end{itemize}
 
