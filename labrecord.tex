@@ -2,25 +2,68 @@
 
 \begin{document}
 
-\title{LAB RECORD}
-\author{Santhisenan}
-\maketitle
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+\begin{titlepage}
 
-\begin{abstract}
-Lab record for FOSS LAB (CS232)
-\end{abstract}
+\center
+
+\textsc{\LARGE COLLEGE OF ENGINEERING }\\[1.3cm]
+\textsc{\Large TRIVANDRUM}\\[0.5cm]
+
+\HRule \\[0.4cm]
+{ \huge \bfseries FOSS LAB RECORD}\\[0.4cm] 
+\HRule \\[1.5cm]
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Submitted By:}\\
+
+
+ \textsc{Santhisenan A \\
+ Roll Number 50 \\
+ S4 CSE\\
+ } 
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{} \\
+\end{flushright}
+\end{minipage}\\[4cm]
+
+
+{\large \today}\\[3cm] 
+
+
+\vfill
+
+
+
+\end{titlepage}
+\newpage
+\tableofcontents{}
+%\makeindex
 
 \newpage
-
 \section{Getting started with Linux basic commands for directory operations}
 
 \subsection{Aim}
 Getting started with Linux basic commands for directory operations, displaying directory structure in tree format etc.
 
 \subsection{Basic Commands}
-\begin{table}[htb]\caption{Basic Commands}\label{Basic commands in Linux}\begin{tabular}{rcc}\noalign{\smallskip} \hline \hline \noalign{\smallskip}Command & operation \\
+\begin{table}[htb]
+\caption{Basic Commands}
 
-\hlinetouch filename        & create a new file\\mkdir filename	&create a new directory\\
+\label{Basic commands in Linux}
+\begin{tabular}{rcc}
+\noalign{\smallskip} \hline \hline \noalign{\smallskip}
+Command & operation \\
+
+\hline
+touch filename        & create a new file\\
+mkdir filename	&create a new directory\\
 pwd		&prints present working directory\\
 cd dirname	&change directory\\
 \hline
@@ -44,7 +87,9 @@ clear			&clear the contents of the terminal\\
 locate		&search for a specified filename\\
 man commandname	&view help of the specified command name\\
 \hline
-\noalign{\smallskip} \hline \noalign{\smallskip}\end{tabular}\end{table}
+\noalign{\smallskip} \hline \noalign{\smallskip}
+\end{tabular}
+\end{table}
 
 \newpage
 
@@ -69,7 +114,9 @@ File name & Content\\
 /var &variable files\\
 /root & home directory for the root user\\ 
 \hline
-\noalign{\smallskip} \hline \noalign{\smallskip}\end{tabular}\end{table}
+\noalign{\smallskip} \hline \noalign{\smallskip}
+\end{tabular}
+\end{table}
 
 \subsection{Result}
 The directory structure and basic commands in linux were studied.
@@ -84,22 +131,22 @@ Linux commands for operations such as redirection, pipes, filters, job control, 
 \begin{itemize}
 \item By default most command line programs send their output to the standard output which by default displays it on the 
 
-\hspace{10mm} \textit{commandName} > \textit{fileName} -Overwrites the file with the output of the command
+\hspace{10mm} \textit{commandName} $>$\textit{fileName} -Overwrites the file with the output of the command
 
-\hspace{10mm} \textit{commandName} >> \textit{fileName} - appends the file with the output of the command.
+\hspace{10mm} \textit{commandName} $>>$\textit{fileName} - appends the file with the output of the command.
 
 \item Most of the command line programs accept its input from the standard input and by default gets its contents from the keyboard. Similar to standard output it can also be redirected.
 
-\textit{sort < filename} - sort command processes the contents of the file with the name filename.
+\textit{sort $<$ filename} - sort command processes the contents of the file with the name filename.
 
-\hspace{10mm} \textit{sort < file1>file2} processes the contents of file 1 and redirects its output to file 2
+\hspace{10mm} \textit{sort $<$ file1 $>$ file2} processes the contents of file 1 and redirects its output to file 2
 
 \end{itemize}
 
 \subsection{Pipes}
 Pipes are used to redirect the standard output of one command to the standard input of another command.
 
-\hspace{10mm} \textit{command1 | command2} the standard output of command 1 is redirected to the standard input of command 2.
+\hspace{10mm} \textit{command1 $|$ command2} the standard output of command 1 is redirected to the standard input of command 2.
 
 \subsection{Filters}
 
@@ -189,67 +236,63 @@ A link provides a connection between files. This provides the ability to have a 
 A hard link creates a second file that refers to the same file on the physical disk. This is achieved by having two filenames that point directly at the same file. This is normally used where file entries (links) are on the same filesystem. When a hard link is created then all the names that link to that file are given the same status. Deleting one of the files will break the link, but the file can still exist under the other linked filenames. This works by maintaining a counter of the number of filenames that the file has. When the number of filenames reaches zero then the file is considered to be deleted and is removed.
 
 	The number of filenames for a file can be seen using the `ls -l' command. The number following the file permissions indicates the number of linked filenames. The following screenshot shows that filename1 and filename2 are to linked files with one of the file denoted by the 2 (in this case the same file, but they could be to completely different files), the file not\_link is a single file denoted by the 1.
-	
-\$ ls -l
+\begin{verbatim}	
+ls -l
 
-\hspace{10mm} total 2432
+total 2432
 
-\hspace{10mm}-rw-r--r-- 2 stewart stewart 1241088 2009-01-23 15:26 filename1
+-rw-r--r-- 2 stewart stewart 1241088 2009-01-23 15:26 filename1
 
-\hspace{10mm}-rw-r--r-- 2 stewart stewart 1241088 2009-01-23 15:26 filename2
+-rw-r--r-- 2 stewart stewart 1241088 2009-01-23 15:26 filename2
 
-\hspace{10mm}-rw-r--r-- 1 stewart stewart       0 2009-01-23 15:26 not\_link
+-rw-r--r-- 1 stewart stewart       0 2009-01-23 15:26 not\_link
 
-\hspace{10mm}Note that whilst the two files appear to occupy 1.2Mb each the actual space used is only 1.2Mb in total as the file only exists once.
+Note that whilst the two files appear to occupy 1.2Mb each the actual space used is only 1.2Mb in total as the file only exists once.
 
-\hspace{15mm}du -h
+du -h
 
-\hspace{15mm}1.2M
+1.2M
 
-\hspace{10mm}The default for the ln command is a hard link. Assuming filename1 already exists filename2 is created using:
+The default for the ln command is a hard link. Assuming filename1 already exists filename2 is created using:
 
-\hspace{10mm}ln filename1 filename2
+ln filename1 filename2
 
-	
+\end{verbatim}
 
 \item Soft Link
 
 A soft link is sometimes referred to as a symbolic link or symlink. A filename created as a soft link is a special file that has the pathname of the file to redirect to. Behind the scenes when you try and access a symlink it just goes to the filename referred to instead.
 
 	In the following example a file has been created called original\_file with a soft link to that same file called softlink\_tofile. As you can see the ls command makes it clear that this is a link through the l at the beginning of the file permissions and due to the reference notation after the filename.
+\begin{verbatim}
+ls -l
 
-\hspace{10mm}ls -l
+total 440
 
-\hspace{10mm}total 440
+-rw-r--r-- 1 stewart stewart 446464 2009-01-23 15:21 original_file
 
-\hspace{10mm}-rw-r--r-- 1 stewart stewart 446464 2009-01-23 15:21 original\_file
+lrwxrwxrwx 1 stewart stewart     13 2009-01-23 15:20 softlink_tofile -> original_file
 
-\hspace{10mm}lrwxrwxrwx 1 stewart stewart     13 2009-01-23 15:20 softlink\_tofile -> original\_file
+Note that with a soft link the permissions to the link file are set to full access as the user is contstrained by the permissions on the original file. Also note that if the filesize of the original file changes the link will remain the same (on this system 13 bytes).
 
-\hspace{10mm}Note that with a soft link the permissions to the link file are set to full access as the user is contstrained by the permissions on the original file. Also note that if the filesize of the original file changes the link will remain the same (on this system 13 bytes).
+If the link is deleted then this will have no impact on the original file, but if the original file is deleted this will result in a broken link. The example below shows how removing the original file results in a error "No such file or directory".
 
-\hspace{10mm}If the link is deleted then this will have no impact on the original file, but if the original file is deleted this will result in a broken link. The example below shows how removing the original file results in a error "No such file or directory".
+$ rm original_file 
 
-\hspace{10mm} \$ rm original\_file 
+$ ls -l
 
+total 0
 
+lrwxrwxrwx 1 stewart stewart 13 2009-01-23 15:20 softlink_tofile -> original_file
 
-\hspace{10mm} \$ ls -l
+$ cat softlink_tofile 
 
-\hspace{10mm}total 0
+cat: softlink_tofile: No such file or directory
 
-\hspace{10mm}lrwxrwxrwx 1 stewart stewart 13 2009-01-23 15:20 softlink\_tofile -> original\_file
+The -s option is used on the ln command to create a softlink.
 
-
-
-\hspace{10mm}\$ cat softlink\_tofile 
-
-\hspace{10mm}cat: softlink\_tofile: No such file or directory
-
-\hspace{10mm}The -s option is used on the ln command to create a softlink.
-
-\hspace{10mm}ln -s original\_file softlink\_tofile
-
+ln -s original_file softlink_tofile
+\end{verbatim}
 \hspace{10mm}Note that if original\_file does not exist then the soft link will be created anyway. An attempt to read it will give the error message we encountered earlier, but an attempt to write to the file can create original\_file.
 
 \item Pitfalls while using links
@@ -490,7 +533,14 @@ The linux commands were studied.
 \section{Shell Programming}
 \subsection{Aim}
 Write shell script to show various system configuration like
-\begin{itemize}\item Currently logged user and his login name\item Your current shell\item Your home directory\item Your operating system type\item Your current path setting\item Your current working directory\item Number of users currently logged in
+\begin{itemize}
+\item Currently logged user and his login name
+\item Your current shell
+\item Your home directory
+\item Your operating system type
+\item Your current path setting
+\item Your current working directory
+\item Number of users currently logged in
 \end{itemize}
 
 \subsection{Shell Script}
@@ -518,7 +568,13 @@ The shell script for displaying required items was made and the output was verif
 \subsection {Aim}
 
 Write shell script to show various system configurations like
-\begin{itemize}\item your OS and version, release number, kernel version\item all available shells\item computer CPU information like processor type, speed etc\item memory information\item hard disk information like size of hard-disk, cache memory, model etc\item File system (Mounted)
+\begin{itemize}
+\item your OS and version, release number, kernel version
+\item all available shells
+\item computer CPU information like processor type, speed etc
+\item memory information
+\item hard disk information like size of hard-disk, cache memory, model etc
+\item File system (Mounted)
 \end{itemize}
 
 \subsection{Shell Script}
@@ -551,7 +607,10 @@ The shell script for displaying required system configurations was made and the 
 \subsection{Aim}
 Write a shell script to implement a menu driven calculator with following functions
 \begin{itemize}
-\item Addition\item Subtraction\item Multiplication
+
+\item Addition
+\item Subtraction
+\item Multiplication
 \item Division
 \item Modulus
 
@@ -602,8 +661,13 @@ The shell script for a simple menu driven calculator was made and the output was
 
 \section{Script addnames.sh}
 \subsection{Aim}
-Write a script called addnames that is to be called as follows ./addnames ulist usernameHere ulist is the name of the file that contains list of user names and username is a particular student's username. The script should
-\begin{itemize}\item check that the correct number of arguments was received and print a message, in case the number of arguments is incorrect\item check whether the ulist file exists and print an error message if it does not\item check whether the username already exists in the file. If the username exists, print a message stating that the name already exists. Otherwise, add the username to the end ofthe list.
+Write a script called addnames that is to be called as follows ./addnames ulist username
+Here ulist is the name of the file that contains list of user names and username is a particular student's username. The script should
+\begin{itemize}
+\item check that the correct number of arguments was received and print a message, in case the number of arguments is incorrect
+\item check whether the ulist file exists and print an error message if it does not
+\item check whether the username already exists in the file. If the username exists, print a message stating that the name already exists. Otherwise, add the username to the end of
+the list.
 \end{itemize}
 
 \subsection{Shell script}
@@ -643,7 +707,15 @@ The required shell script was made and the output was verfied.
 
 \subsection{Aim}
 Version Control System setup and usage using GIT. Try the following features.
-\begin{itemize}\item Creating a repository\item Checking out a repository\item Adding content to the repository\item Committing the data to a repository\item Updating the local copy\item Comparing different revisions\item Revert\item Conflicts and a conflict Resolution
+\begin{itemize}
+\item Creating a repository
+\item Checking out a repository
+\item Adding content to the repository
+\item Committing the data to a repository
+\item Updating the local copy
+\item Comparing different revisions
+\item Revert
+\item Conflicts and a conflict Resolution
 \end{itemize}
 
 \subsection{Theory}
@@ -668,7 +740,12 @@ To clone an existing repository use \textit{git clone https://example\_url.git} 
 Use the command git init when inside your project?s home folder to initialise an empty repository.
 
 \item Basic Git commands
-\begin{table}[htb]\caption{Basic Commands}\label{Basic commands in Git}\begin{tabular}{|p{7cm}|p{7cm}|}\noalign{\smallskip} \hline \hline \noalign{\smallskip}
+\begin{table}[htb]
+\caption{Basic Commands}
+
+\label{Basic commands in Git}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\noalign{\smallskip} \hline \hline \noalign{\smallskip}
 Command & Use\\
 \hline
 git init & create a new repository\\
@@ -691,7 +768,10 @@ Branches are most powerful when you are working on a team. You can work on your 
 
 There will be a main branch called master by default.
 
-\begin{table}[htb]\caption{Branching}\begin{tabular}{|p{7cm}|p{7cm}|}\noalign{\smallskip} \hline \hline \noalign{\smallskip}
+\begin{table}[htb]
+\caption{Branching}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\noalign{\smallskip} \hline \hline \noalign{\smallskip}
 Command & Use\\
 \hline
 git branch new\_branch & create a new branch \\
@@ -784,7 +864,32 @@ Shell script which starts on system boot up and kills every process which uses m
 
 \subsection{Shell Script}
 \begin{verbatim}
-#!/bin/shcheck mem val=10.0check cpu val=10.0while(true)dops -e -o pmem=,pcpu=,pid=,user=,comm= ?sort=-pmem ? while read size cpu pid user commdokill mem=0kill cpu=0if [ ``$user'' = ``golden-+'' ]thenkill mem=$( echo ``$size>$check mem val ? bc'' )kill cpu=$( echo ``$cpu>$check cpu val? ? bc'')if [ ``$kill mem'' = ``1'' ]thenkill $pid # $size $user $commelif [ ``$kill cpu'' = ``1'']thenkill $pid # $size $user $commelsecontinuefifidonesleep 1done
+#!/bin/sh
+check mem val=10.0
+check cpu val=10.0
+while(true)
+do
+ps -e -o pmem=,pcpu=,pid=,user=,comm= ?sort=-pmem ? while read size cpu pid user comm
+do
+kill mem=0
+kill cpu=0
+if [ ``$user'' = ``golden-+'' ]
+then
+kill mem=$( echo ``$size>$check mem val ? bc'' )
+kill cpu=$( echo ``$cpu>$check cpu val? ? bc'')
+if [ ``$kill mem'' = ``1'' ]
+then
+kill $pid # $size $user $comm
+elif [ ``$kill cpu'' = ``1'']
+then
+kill $pid # $size $user $comm
+else
+continue
+fi
+fi
+done
+sleep 1
+done
 \end{verbatim}
 
 \subsection{Result}
@@ -946,9 +1051,116 @@ You can check your PHP by executing any PHP file from within /var/www/. Alternat
  
 \end{itemize}
 
-\subsection {PHP Example - Login From}
+\subsection {PHP Example - Login From files}
+\begin{itemize}
+\item config.php
+
+\begin{verbatim}
+<?php 
+define('DB_SERVER','localhost');
+define('DB_USERNAME','fc');
+define('DB_PASSWORD','');
+define('DB_DATABASE','fossdb');
+$db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+ ?>
+\end{verbatim}
+
+\item login.php
+
+\begin{verbatim}
+
+<?php 
+
+include('config.php');
+
+session_start();
+
+$error="";
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+	  $myusername =$_POST['username'];
+    $mypassword = $_POST['password'];
+    $sql = "SELECT * FROM admin WHERE username = '$myusername' and password = '$mypassword'";
+      $result = mysqli_query($db,$sql) or die(mysqli_error($db));;
+      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $count = mysqli_num_rows($result);
+
+      if($count == 1) {
+        session_register("myusername");
+         $_SESSION['username'] = $myusername;
+         $_SESSION['loggedin'] = true;
+
+         // header('Location: http://localhost/login/welcome.php');
+         // exit;
+         error_reporting(E_ALL | E_WARNING | E_NOTICE);
+ini_set('display_errors', TRUE);
 
 
+flush();
+header("Location:http://localhost/login/welcome.php");
+die('should have redirected by now');
+
+      }
+      else {
+         $error = "Your Login Name or Password is invalid";
+      }
+
+
+}
+
+ ?>
+
+<html>	
+<head>
+	<title>Login Page</title>
+</head>
+<div><?php echo $error ?></div>
+<body>
+	<form action="login.php" method="POST">
+		<input type="text" placeholder="username" name="username">
+		<input type="password" placeholder="password" name="password">
+		<input type="submit" value="submit">
+
+	</form>
+</body>
+
+
+ </html>
+ 
+\end{verbatim}
+
+\item session.php
+
+\begin{verbatim}
+<?php
+   include('config.php');
+   session_start();
+   
+   $user_check = $_SESSION['username'];
+   
+   $ses_sql = mysqli_query($db,"select username from admin where username = '$user_check' ");
+   
+   $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
+   
+   $login_session = $row['username'];
+   
+   if(!isset($_SESSION['login_user'])){
+      header("location:login.php");
+   }
+?>
+\end{verbatim}
+
+\item welcome.php
+
+\begin{verbatim}
+<html>
+	<body>
+		Logged in
+	</body>
+</html>
+\end{verbatim}
+
+\end{itemize}
 \subsection{Result}
 LAMP stack was installed successfully.
 
