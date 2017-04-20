@@ -43,15 +43,15 @@
 \contentsline {section}{\numberline {9}Shell script which starts on system boot up and kills every process which uses more than a specified amount of memory or CPU}{23}
 \contentsline {subsection}{\numberline {9.1}Aim}{23}
 \contentsline {subsection}{\numberline {9.2}Shell Script}{23}
-\contentsline {subsection}{\numberline {9.3}Result}{23}
-\contentsline {section}{\numberline {10}Simple Text Processing using Perl}{24}
-\contentsline {subsection}{\numberline {10.1}Aim}{24}
-\contentsline {subsection}{\numberline {10.2}Script}{24}
-\contentsline {subsection}{\numberline {10.3}Result}{26}
-\contentsline {section}{\numberline {11}Running PHP}{27}
-\contentsline {subsection}{\numberline {11.1}Aim}{27}
-\contentsline {subsection}{\numberline {11.2}Installing LAMP stack}{27}
-\contentsline {subsection}{\numberline {11.3}PHP Example - Login From files}{28}
-\contentsline {subsection}{\numberline {11.4}Result}{30}
-\contentsline {section}{\numberline {12}GUI Programming}{31}
-\contentsline {subsection}{\numberline {12.1}Aim}{31}
+\contentsline {subsection}{\numberline {9.3}Result}{24}
+\contentsline {section}{\numberline {10}Simple Text Processing using Perl}{25}
+\contentsline {subsection}{\numberline {10.1}Aim}{25}
+\contentsline {subsection}{\numberline {10.2}Script}{25}
+\contentsline {subsection}{\numberline {10.3}Result}{27}
+\contentsline {section}{\numberline {11}Running PHP}{28}
+\contentsline {subsection}{\numberline {11.1}Aim}{28}
+\contentsline {subsection}{\numberline {11.2}Installing LAMP stack}{28}
+\contentsline {subsection}{\numberline {11.3}PHP Example - Login From files}{29}
+\contentsline {subsection}{\numberline {11.4}Result}{31}
+\contentsline {section}{\numberline {12}GUI Programming}{32}
+\contentsline {subsection}{\numberline {12.1}Aim}{32}

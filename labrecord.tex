@@ -858,36 +858,41 @@ Shell script which starts on system boot up and kills every process which uses m
 \subsection{Shell Script}
 \begin{verbatim}
 #!/bin/sh
-check mem val=10.0
-check cpu val=10.0
+memlimit=10.0;
+cpulimit=10.0;
 while(true)
 do
-ps -e -o pmem=,pcpu=,pid=,user=,comm= ?sort=-pmem ? while read size cpu pid user comm
-do
-kill mem=0
-kill cpu=0
-if [ ``$user'' = ``golden-+'' ]
+echo "script running.."
+ps -e -o pmem=,pcpu=,pid=,user=,comm= | sort=-pmem |
+while read size cpu pid user comm
+do 
+kill_mem=0
+kill_cpu=0
+if [ "$user" = "santhisenan" ]
 then
-kill mem=$( echo ``$size>$check mem val ? bc'' )
-kill cpu=$( echo ``$cpu>$check cpu val? ? bc'')
-if [ ``$kill mem'' = ``1'' ]
-then
-kill $pid # $size $user $comm
-elif [ ``$kill cpu'' = ``1'']
-then
-kill $pid # $size $user $comm
-else
-continue
-fi
+    echo "Script Running..."
+    kill_mem=` echo "$size>$memlimit" | bc `
+    kill_cpu=` echo "$cpu>$cpulimit" | bc `
+    if [ "$kill_mem = 1" ]
+    then
+        echo "process with PID $pid killed"
+        kill $pid
+    elif [ "$kill_cpu = 1" ]
+    then
+        echo "process with PID $pid killed"
+        kill $pid
+    else
+    continue
+    fi
 fi
 done
 sleep 1
 done
+
 \end{verbatim}
 
 \subsection{Result}
-The required shell script was made and the output was verified.
-
+A shell script for killing processes that consume more than a specific amount of memory and cpu was made and the output was verified.
 \newpage
 \section{Simple Text Processing using Perl}
 
