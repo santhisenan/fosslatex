@@ -1,4 +1,8 @@
 \documentclass{article}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{sample.bib}
 
 \begin{document}
 
@@ -13,6 +17,8 @@
 \HRule \\[0.4cm]
 { \huge \bfseries FOSS LAB RECORD}\\[0.4cm] 
 \HRule \\[1.5cm]
+
+
 
 
 \begin{minipage}{0.4\textwidth}
@@ -62,31 +68,37 @@ Getting started with Linux basic commands for directory operations, displaying d
 Command & operation \\
 
 \hline
-touch filename        & create a new file\\
-mkdir filename	&create a new directory\\
-pwd		&prints present working directory\\
-cd dirname	&change directory\\
+touch filename        	& create a new file\\
+mkdir filename			&create a new directory\\
+pwd						&prints present working directory\\
+cd dirname				&change directory\\
 \hline
 cat filename	&view contents of a file\\
 more filename	&view contents of a file one scornful at a time\\
 less filename 	&similar but faster than more\\
 \hline
-ls			&list files in a directory\\
+ls				&list files in a directory\\
 ls -l 			&provide long listing of all the files\\
 ls -l -h		&provides sizes in human readable form\\
 ls -F			&mark all executables with * and directories with / \\
 ls -a			&show all files in the present directory with special dot files\\
 \hline
-cp file1 file2	&copying files\\
+cp file1 file2			&copying files\\
 cp -r dirname1 dirname2	&copy directories\\
 \hline
-rm filename	&remove a file\\
+rm filename			&remove a file\\
 rmdir -rf dirname	&remove a non empty directory\\
 \hline
 clear			&clear the contents of the terminal\\
-locate		&search for a specified filename\\
+locate			&search for a specified filename\\
 man commandname	&view help of the specified command name\\
 \hline
+chmod [options] mode filename &change file permissions\\
+chwon [options] filename &Change file ownership\\
+kill [options] pid &Kill a process\\
+who [options] &Display who is logged in\\
+top &Display the resources being used in your system\\
+ln [options] source [desitination] &Create a shortcut\\
 \noalign{\smallskip} \hline \noalign{\smallskip}
 \end{tabular}
 \end{table}
@@ -118,8 +130,19 @@ File name & Content\\
 \end{tabular}
 \end{table}
 
+
+\subsection{Output}
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{./outputs/exp1.jpg}
+\end{figure}
+
 \subsection{Result}
-The directory structure and basic commands in linux were studied.
+Several basic linux commands were studied and they were tested on OS version number. The direcotry structure of linux was also studied. The directory structure was printed in tree format using tree command on ArchLinux 4.10.11. A more detailed directory struture in tree format can be found in this file - \url{https://github.com/santhisenan/fosslabrecord/blob/master/exp4out}
+\begin{refsection}
+\cite{commands}
+\cite{directorystructure}
+\printbibliography
+\end{refsection}
 %Second Experiment
 \newpage
 \section{Linux commands for operations such as redirection, pipes, filters, job control, changing ownership/permissions of files/links/directory.}
@@ -322,21 +345,27 @@ Despite these pitfalls there are many advantages to using both hard and soft lin
 
 The required linux commands were studied.
 
+\begin{refsection}
+\cite{jobcontrol}
+\cite{piperedirection}
+\cite{linuxbook}
+\printbibliography
+\end{refsection}
 \newpage
 \section{Advanced Linux Commands}
 
 \subsection{Aim}
 Advanced linux commands curl, wget, ftp, ssh and grep.
 
-\subsection{Curl}
+\subsection{curl}
 
-Curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
+curl \cite{curlweb} is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
 
 `curl link' - gives information about the website and outputs the html code.
 
 `curl -O link/file.html' - copies the html code of the website to file.html
 
-\subsection{SSH}
+\subsection{ssh}
 
      ssh (SSH client) is a program for logging into a remote machine and for
      executing commands on a remote machine.  It is intended to replace rlogin
@@ -393,7 +422,7 @@ TO SHUTDOWN CONNECTED COMPUTER
 \subsection{wget}
 
 
-GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP , HTTPS , and FTP protocols, as well as retrieval through HTTP proxies.
+GNU wget \cite{wgetweb} is a free utility for non-interactive download of files from the Web. It supports HTTP , HTTPS , and FTP protocols, as well as retrieval through HTTP proxies.
 
 Wget is non-interactive, meaning that it can work in the background, while the user is not logged on. This allows you to start a retrieval and disconnect from the system, letting Wget finish the work. By contrast, most of the Web browsers require constant user's presence, which can be a great hindrance when transferring a lot of data.
 
@@ -415,9 +444,9 @@ Wget has been designed for robustness over slow or unstable network connections;
 
 \newpage
 
-\subsection {FTP}
+\subsection {ftp}
 
-The FTP (File Transfer Protocol) utility program is commonly used for copying files to and from other computers. These computers may be at the same site or at different sites thousands of miles apart. FTP is a general protocol that works on UNIX systems as well as a variety of other (non-UNIX) systems.
+The FTP \cite{ftpweb1} \cite{ftpweb2} (File Transfer Protocol) utility program is commonly used for copying files to and from other computers. These computers may be at the same site or at different sites thousands of miles apart. FTP is a general protocol that works on UNIX systems as well as a variety of other (non-UNIX) systems.
 
 To connect your local machine to the remote machine, type
 
@@ -456,7 +485,7 @@ quit & exit ftp environment\\
 
 \subsection{grep}
 
-GREP : Global Regular Expression Print
+GREP : Global Regular Expression Print \cite{grepweb}
 
  	\hspace{10mm}Searches for text in a file
 	
@@ -516,10 +545,28 @@ GREP : Global Regular Expression Print
 				Look for it at the end of the line.
 				
 				\hspace{10mm}\$ grep ?string1\$? filename
-				
+
+\subsection{Output}
+\newpage
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{./outputs/advlin1.jpg}
+	\bigskip
+	\includegraphics[width=\linewidth]{./outputs/advlinux.jpg}
+\end{figure}	
+\newpage
 
 \subsection{Result}
-The linux commands were studied.
+The advanced linux commands ftp, ssh, wget, grep and curl were studied. The commads were run on ArchLinux 4.10.11.
+
+\begin{refsection}
+\cite{ftpweb1}
+\cite{ftpweb2}
+\cite{curlweb}
+\cite{wgetweb}
+\cite{grepweb}
+\printbibliography
+
+\end{refsection}
 
 \newpage
 
@@ -551,8 +598,20 @@ echo "the working directory is $PWD"
 echo "there are $log users logged in"
 \end{verbatim}
 
+\subsection{Output}
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{./outputs/exp3new.jpg}
+\end{figure}
+
 \subsection{Result}
-The shell script for displaying required items was made and the output was verified.
+The shell script for displaying various system configurations were made and the output was verified. The script was run on ArchLinux 4.10.11.
+\begin{refsection}
+\cite{shellbible}
+\cite{shellbook}
+\printbibliography
+\end{refsection}
+
+\newpage
 
 \newpage
 
@@ -576,23 +635,23 @@ Write shell script to show various system configurations like
 
   \#!/bin/bash
    
-  echo "########################OS#####################";
   echo -e "`cat /etc/os-release`"
-  echo  "##################Available Shells###########################"
   echo -e  "`cat /etc/shells`"
-  echo  "#################Mouse Info########################"
   echo -e "`xset q`"
-  echo  "####################Memory Information####################"
   echo -e "`cat /proc/meminfo`"
-  echo "#####################Hard Disk Info####################"
   echo -e "Driver: `sudo hdparm -I /dev/sda`"
-  echo "##################File Mounted#####################"
   echo -e "`cat /proc/mounts`"
 
 \end{verbatim}
 
 \subsection{Result}
-The shell script for displaying required system configurations was made and the output was verified.
+The shell script for displaying required system configurations was made and the output was verified. The shell script was run on ArchLinux 4.10.11 and the output file can be viewed at \url{https://github.com/santhisenan/fosslabrecord/blob/master/exp4out}
+
+\begin{refsection}
+\cite{shellbible}
+\cite{shellbook}
+\printbibliography
+\end{refsection}
 
 \newpage
 
@@ -648,11 +707,24 @@ fi
 done
 \end{verbatim}
 
+\subsection{Output}
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{./outputs/simplecalcnew.jpg}
+\end{figure}
+
+
 \subsection{Result}
-The shell script for a simple menu driven calculator was made and the output was verified.
+The shell script for a simple menu driven calculator was made and the output was verified. The script was run in ArchLinux 4.10.11 and screenshot of output is attached above.
+
+\begin{refsection}
+\cite{shellbible}
+\cite{shellbook}
+\printbibliography
+\end{refsection}
+
 \newpage
 
-\section{Script addnames.sh}
+\section{Script that accepts two arguments from the commad line and operates on them}
 \subsection{Aim}
 Write a script called addnames that is to be called as follows ./addnames ulist username
 Here ulist is the name of the file that contains list of user names and username is a particular student's username. The script should
@@ -691,8 +763,20 @@ fi
 
 \end{verbatim}
 
+\subsection{Output}
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{./outputs/addnamesnew.jpg}
+\end{figure}
+
+
 \subsection{Result}
-The required shell script was made and the output was verfied.
+The required shell script was made and the output was verfied. The script was run on ArchLinux 4.10.11.
+
+\begin{refsection}
+\cite{shellbible}
+\cite{shellbook}
+\printbibliography
+\end{refsection}
 
 \newpage
 
@@ -847,8 +931,13 @@ How to use checkout
 
 \subsection{Result}
 
-Basic git operations were familiarised
+Basic git operations were familiarised. All the opreations were performed in Git 2.10.1. Check out this repository in Github - https://github.com/santhisenan/fosslabrecord.git.
 
+\begin{refsection}
+\cite{gitdoc}
+\cite{gitdoc1}
+\printbibliography
+\end{refsection}
 \newpage
 \section{Shell script which starts on system boot up and kills every process which uses more than a specified amount of memory or CPU}
 
@@ -891,10 +980,22 @@ done
 
 \end{verbatim}
 
+\subsection{Output}
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{./outputs/killprocessnew.jpg}
+\end{figure}
+
 \subsection{Result}
-A shell script for killing processes that consume more than a specific amount of memory and cpu was made and the output was verified.
+A shell script for killing processes that consume more than a specific amount of memory and cpu was made and the output was verified. The shell script was run on ArchLinux 4.10.11.
+
+\begin{refsection}
+\cite{shellbible}
+\cite{shellbook}
+\printbibliography
+\end{refsection}
+
 \newpage
-\section{Simple Text Processing using Perl}
+\section{Simple Text Processing using Perl and Awk}
 
 \subsection{Aim}
 Perform simple text processing using Perl, Awk.
@@ -995,6 +1096,12 @@ while ($c==0)
 
 \subsection{Result}
 The script for simple word processing was made and the output was verified.
+
+\begin{refsection}
+\cite{perlbook}
+\cite{perlweb}
+\printbibliography
+\end{refsection}
 
 \newpage
 \section{Running PHP}
@@ -1160,7 +1267,13 @@ die('should have redirected by now');
 
 \end{itemize}
 \subsection{Result}
-LAMP stack was installed successfully.
+LAMP stack was successfully installed and a sample login form using PHP and mysql was made.
+
+\begin{refsection}
+\cite{lamp}
+\printbibliography
+\end{refsection}
+
 
 \newpage
 \section{GUI Programming}
@@ -1182,7 +1295,6 @@ LAMP stack was installed successfully.
 
 
 	
-
 
 
 
