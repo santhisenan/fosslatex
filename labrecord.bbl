@@ -157,6 +157,21 @@
   \endsortlist
 \endrefsection
 
+\refsection{12}
+  \sortlist[entry]{nty/global/}
+    \entry{pyGTK}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeltitlesource}{title}
+      \field{title}{The Python GTK+ 3 Tutorial}
+      \verb{url}
+      \verb http://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html
+      \endverb
+      \keyw{python,gtk}
+    \endentry
+  \endsortlist
+\endrefsection
+
 \refsection{2}
   \sortlist[entry]{nty/global/}
     \entry{jobcontrol}{online}{}

@@ -110,7 +110,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2}Script}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3}Result}{33}
+\contentsline {subsection}{\numberline {10.3}Result}{32}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11}Running PHP}{34}
 \defcounter {refsection}{0}\relax 
@@ -125,3 +125,9 @@
 \contentsline {section}{\numberline {12}GUI Programming}{38}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1}Aim}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2}Prerequisites}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3}Python Code}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.4}Result}{40}

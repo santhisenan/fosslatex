@@ -2,6 +2,8 @@
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage[backend=biber]{biblatex}
+\usepackage{fancyvrb}
+\usepackage{listings}
 \addbibresource{sample.bib}
 
 \begin{document}
@@ -137,7 +139,7 @@ File name & Content\\
 \end{figure}
 
 \subsection{Result}
-Several basic linux commands were studied and they were tested on OS version number. The direcotry structure of linux was also studied. The directory structure was printed in tree format using tree command on ArchLinux 4.10.11. A more detailed directory struture in tree format can be found in this file - \url{https://github.com/santhisenan/fosslabrecord/blob/master/exp4out}
+Several basic linux commands were studied and they were tested on OS version number. The direcotry structure of linux was also studied. The directory structure was printed in tree format using tree command on ArchLinux 4.10.11. A more detailed directory struture in tree format can be found in this file - \url{https://github.com/santhisenan/fosslabrecord/blob/master/exp1out}
 \begin{refsection}
 \cite{commands}
 \cite{directorystructure}
@@ -343,7 +345,7 @@ Despite these pitfalls there are many advantages to using both hard and soft lin
 
 \subsection {Result}
 
-The required linux commands were studied.
+The linux commads for redirection of standard I/O, pipes, filters, job control and links in linux were studied and they were run on ArchLinux 4.10.11 and output was verified.
 
 \begin{refsection}
 \cite{jobcontrol}
@@ -548,9 +550,8 @@ GREP : Global Regular Expression Print \cite{grepweb}
 
 \subsection{Output}
 \newpage
-\begin{figure}[!h]
+\begin{figure}[h!]
 	\includegraphics[width=\linewidth]{./outputs/advlin1.jpg}
-	\vspace{2cm}
 	\includegraphics[width=\linewidth]{./outputs/advlinux.jpg}
 \end{figure}	
 \newpage
@@ -645,7 +646,7 @@ Write shell script to show various system configurations like
 \end{verbatim}
 
 \subsection{Result}
-The shell script for displaying required system configurations was made and the output was verified. The shell script was run on ArchLinux 4.10.11 and the output file can be viewed at \url{https://github.com/santhisenan/fosslabrecord/blob/master/exp4out}
+The shell script for displaying required system configurations was made and the output was verified. The shell script was run on ArchLinux 4.10.11 and the output file can be viewed at \url{https://github.com/santhisenan/fosslabrecord/exp4out}
 
 \begin{refsection}
 \cite{shellbible}
@@ -762,6 +763,7 @@ else
 fi
 
 \end{verbatim}
+\vfill
 
 \subsection{Output}
 \begin{figure}[h!]
@@ -1002,36 +1004,30 @@ Perform simple text processing using Perl, Awk.
 
 \subsection{Script}
 
-\begin{verbatim}
+\begin{lstlisting}[language=perl]
 print("Please enter a string on which you would like to perform the regular expression operations\n");
 $a=<>;
 $c=0;
-while ($c==0)
-{
+while ($c==0){
 	print("Please enter the Regular expression to be evaluated\n");
 	$b=<>;
 	@regex=split("",$b);
-	if ($regex[0] eq "m")
-	{
+	if ($regex[0] eq "m"){
 		print ("The regular expression entered is a match operator\n");
 		$len=length $b;
 		$b=substr $b,2,$len-4;
-		if($a=~$b)
-		{
+		if($a=~$b){
 			print("There is a match found in the input string\n");
 		}
-		else
-		{
+		else{
 			print ("There is no match found in the input string\n");
 		}
 	}
-	elsif ($regex[0] eq "s")
-	{
+	elsif ($regex[0] eq "s"){
 		print ("The regular expression is a substitute operator\n");
 		$i=2;
 		$t1="";
-		for ($i=2;$i<length $b;$i=$i+1)
-		{
+		for ($i=2;$i<length $b;$i=$i+1){
 			if($regex[$i] eq '/')
 			{
 				last;
@@ -1043,8 +1039,7 @@ while ($c==0)
 		}
 		$i=$i+1;
 		$t2="";
-		for ($r=$i;$r<length $b;$r=$r+1)
-		{
+		for ($r=$i;$r<length $b;$r=$r+1){
 			if($regex[$r] eq '/')
 			{
 				last;
@@ -1057,8 +1052,7 @@ while ($c==0)
 		$a=~s/$t1/$t2/;
 		print ("The contents of the string now is $a\n");
 	}
-	elsif($regex[0] eq 't' && $regex[1] eq 'r')
-	{
+	elsif($regex[0] eq 't' && $regex[1] eq 'r'){
 		print ("The regular expression if a translate operator\n");
 		$i=3;
 		$t1="";
@@ -1075,8 +1069,7 @@ while ($c==0)
 		}
 		$i=$i+1;
 		$t2="";
-		for ($r=$i;$r<length $b;$r=$r+1)
-		{
+		for ($r=$i;$r<length $b;$r=$r+1){
 			if($regex[$r] eq '/')
 			{
 				last;
@@ -1092,7 +1085,7 @@ while ($c==0)
 	print("Enter 0 if you would like to continue with the program, Enter 1 to exit from the program\n");
 	$c=<>;
 }
-\end{verbatim}
+\end{lstlisting}
 
 \subsection{Result}
 The script for simple word processing was made and the output was verified.
@@ -1280,47 +1273,126 @@ LAMP stack was successfully installed and a sample login form using PHP and mysq
 
 \subsection{Aim}
  Create scientific calculator using GTK
+
+ \subsection{Prerequisites} 
+ The prerequisites for this experiment are pyGTK. Install pyGTK by following instructions on this website - \url{http://www.pygtk.org/downloads.html}.
+
+ \subsection{Python Code}
+ \begin{lstlisting}[language=python]
+import gi
+gi.require_version('Gtk','3.0')
+from gi.repository import Gtk
+from math import *
+
+class calcWindow(Gtk.Window):
+	def __init__(self):
+		Gtk.Window.__init__(self,title="Scientific Calculator")
+		outer_box = Gtk.Box(spacing=10, orientation = Gtk.Orientation.VERTICAL)
+		self.add(outer_box)
+
+		entry = Gtk.Entry()
+		outer_box.pack_start(entry,True,True,0)
+		grid = Gtk.Grid()
+		outer_box.pack_start(grid,True,True,0)
+
+		def button_clicked(button):
+			text = entry.get_text()
+			text = text + button.props.label
+			entry.set_text(text)
+		
+		def cleartext(self):
+			entry.set_text("")
+
+		def evaluate(self):
+			eq = entry.get_text()
+			entry.set_text(str(eval(eq)))
+
+		
+
+		def delsingle(self):
+			text = entry.get_text()
+			text=text[:-1]
+			entry.set_text(text)
+
+
+
+		#buttons
+		button9 = Gtk.Button(label = "9");
+		button8 = Gtk.Button(label = "8");
+		button7 = Gtk.Button(label = "7");
+		delete = Gtk.Button(label = "DEL");
+		ac = Gtk.Button(label = "AC");
+		button4 = Gtk.Button(label = "4");
+		button5 = Gtk.Button(label = "5");
+		button6 = Gtk.Button(label = "6");
+		multiply = Gtk.Button(label = "*");
+		divide = Gtk.Button(label = "/");
+		button1 = Gtk.Button(label = "1");
+		button2 = Gtk.Button(label = "2");
+		button3 = Gtk.Button(label = "3");
+		plus = Gtk.Button(label = "+");
+		minus = Gtk.Button(label = "-");
+		button0 = Gtk.Button(label = "9");
+		ans = Gtk.Button(label = "=");
+		dot = Gtk.Button(label = ".")
+
+		openbr = Gtk.Button(label = "(")
+		closebr = Gtk.Button(label = ")")
+		clear = Gtk.Button(label = "C")
+		root = Gtk.Button(label = "root")
+		log = Gtk.Button(label = "log")
+
+
+		other_buttons = (divide,plus,minus,multiply)
+		for button_name in other_buttons:
+			button_name.connect('clicked', button_clicked)
+
+		digits=(button1, button2,button3,button4,button5,button6,button7,button8,button9,button0,openbr,closebr)
+		for i in digits:
+			i.connect('clicked', button_clicked)
+
+		#connecting special buttons
+		ans.connect('clicked',evaluate)
+		#ac.connect('clicked',clear)
+		delete.connect('clicked',delsingle)
+		clear.connect("clicked",cleartext)
+
+
+
+		grid.add(button9)
+		grid.attach(button8,1,0,1,1)
+		grid.attach_next_to(button7,button8,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(divide,button7,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(button6,button9,Gtk.PositionType.BOTTOM,1,1)
+		grid.attach_next_to(button5,button6,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(button4,button5,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(multiply,button4,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(button3,button6,Gtk.PositionType.BOTTOM,1,1)
+		grid.attach_next_to(button2,button3,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(button1,button2,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(minus,button1,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(button0,button3,Gtk.PositionType.BOTTOM,1,1)
+		grid.attach_next_to(dot,button0,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(ans,dot,Gtk.PositionType.RIGHT,1,1)
+		grid.attach_next_to(plus,ans,Gtk.PositionType.RIGHT,1,1)
+
+		grid.attach_next_to(openbr,button9,Gtk.PositionType.TOP,1,1)
+		grid.attach_next_to(closebr,button8,Gtk.PositionType.TOP,1,1)
+		grid.attach_next_to(clear,button7,Gtk.PositionType.TOP,1,1)
+		grid.attach_next_to(delete,divide,Gtk.PositionType.TOP,1,1)
+
+calcWindow = calcWindow()
+calcWindow.connect('delete-event',Gtk.main_quit)
+calcWindow.show_all()
+Gtk.main()			
+\end{lstlisting}
+
+\subsection{Result}
+The python script for creating a scientific calculator was made and the script was run on Ubuntu 15.10 (Wiley Werewolf). Python 2.7.13 was used along with pyGTK+ 3.0.
+
+\begin{refsection}
+\cite{pyGTK}
+\printbibliography
+\end{refsection} 
  
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \end{document}                       
