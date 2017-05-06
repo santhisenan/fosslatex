@@ -110,7 +110,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2}Perl scripts}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3}Result}{32}
+\contentsline {subsection}{\numberline {10.3}awk}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.4}Result}{32}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11}Running PHP}{33}
 \defcounter {refsection}{0}\relax 
