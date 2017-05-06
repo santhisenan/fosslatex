@@ -132,6 +132,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.3}Python Code}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4}Output}{39}
+\contentsline {subsection}{\numberline {12.4}Output}{38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.5}Result}{40}
+\contentsline {subsection}{\numberline {12.5}Result}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{40}

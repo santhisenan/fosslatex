@@ -19,55 +19,25 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
-    \entry{ftpweb2}{online}{}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+    \entry{github}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d5b5f3ad3f763dca4387c939f749f826}{%
+           family={A},
+           family_i={A\bibinitperiod},
+           given={Santhisenan},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5b5f3ad3f763dca4387c939f749f826}
+      \strng{fullhash}{d5b5f3ad3f763dca4387c939f749f826}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Basic FTP Commands}
+      \field{title}{fosslabrecord}
       \verb{url}
-      \verb https://www.cs.colostate.edu/helpdocs/ftp.html
+      \verb https://github.com/santhisenan/fosslabrecord/
       \endverb
-      \keyw{ftp,linux}
-    \endentry
-    \entry{curlweb}{online}{}
-      \field{sortinit}{c}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
-      \field{labeltitlesource}{title}
-      \field{title}{curl}
-      \verb{url}
-      \verb https://curl.haxx.se
-      \endverb
-      \keyw{curl,linux}
-    \endentry
-    \entry{ftpweb1}{online}{}
-      \field{sortinit}{F}
-      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
-      \field{labeltitlesource}{title}
-      \field{title}{File Transfer Protocol}
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/File_Transfer_Protocol
-      \endverb
-      \keyw{ftp,linux}
-    \endentry
-    \entry{wgetweb}{online}{}
-      \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
-      \field{labeltitlesource}{title}
-      \field{title}{GNU Wget}
-      \verb{url}
-      \verb https://www.gnu.org/software/wget/
-      \endverb
-      \keyw{wget,linux}
-    \endentry
-    \entry{grepweb}{online}{}
-      \field{sortinit}{g}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
-      \field{labeltitlesource}{title}
-      \field{title}{grep}
-      \verb{url}
-      \verb http://linuxcommand.org/man_pages/grep1.html
-      \endverb
-      \keyw{grep,linux}
+      \keyw{commands,linux,github,repository}
     \endentry
   \endsortlist
 \endrefsection

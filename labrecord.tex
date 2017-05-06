@@ -4,6 +4,8 @@
 \usepackage[backend=biber]{biblatex}
 \usepackage{fancyvrb}
 \usepackage{listings}
+\newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
+
 \addbibresource{sample.bib}
 
 \begin{document}
@@ -13,36 +15,27 @@
 
 \center
 
-\textsc{\LARGE COLLEGE OF ENGINEERING }\\[1.3cm]
+\textsc{\LARGE COLLEGE OF ENGINEERING }\\[1.0 cm]
 \textsc{\Large TRIVANDRUM}\\[0.5cm]
+\vspace{20px}
+\begin{figure}[h!]
+     \includegraphics[width=\linewidth]{./logo/cet.jpg}
+\end{figure}
+\begin{bottompar}
+{ \huge \bfseries LAB RECORD}\\[0.4cm] 
+{ \large \bfseries Free and Open Source Software Lab}\\[0.4cm] 
+\end{bottompar}
 
-\HRule \\[0.4cm]
-{ \huge \bfseries FOSS LAB RECORD}\\[0.4cm] 
-\HRule \\[1.5cm]
 
-
-
-
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
+\begin{bottompar}
 \emph{Submitted By:}\\
-
-
- \textsc{Santhisenan A \\
+\textsc{\Large Santhisenan A \\
  Roll Number 50 \\
  S4 CSE\\
  } 
-\end{flushleft}
-\end{minipage}
-~
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{} \\
-\end{flushright}
-\end{minipage}\\[4cm]
+ \end{bottompar}
 
 
-{\large \today}\\[3cm] 
 
 
 \vfill
@@ -139,7 +132,7 @@ File name & Content\\
 \end{figure}
 
 \subsection{Result}
-Several basic linux commands and the direcotry structure of linux were studied. The directory structure was printed in tree format using tree command on ArchLinux 4.10.11. A more detailed directory struture in tree format can be found in this file - \url{https://github.com/santhisenan/fosslabrecord/blob/master/exp1out}
+Several basic linux commands and the direcotry structure of linux were studied. The directory structure was printed in tree format using tree command on ArchLinux 4.10.11. A more detailed directory struture in tree format can be found in this file - \url{https://github.com/santhisenan/fosslabrecord/outputs/exp1out}
 \begin{refsection}
 \cite{commands}
 \cite{directorystructure}
@@ -361,7 +354,7 @@ Advanced linux commands curl, wget, ftp, ssh and grep.
 
 \subsection{curl}
 
-curl \cite{curlweb} is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
+curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
 
 `curl link' - gives information about the website and outputs the html code.
 
@@ -424,7 +417,7 @@ TO SHUTDOWN CONNECTED COMPUTER
 \subsection{wget}
 
 
-GNU wget \cite{wgetweb} is a free utility for non-interactive download of files from the Web. It supports HTTP , HTTPS , and FTP protocols, as well as retrieval through HTTP proxies.
+GNU wget is a free utility for non-interactive download of files from the Web. It supports HTTP , HTTPS , and FTP protocols, as well as retrieval through HTTP proxies.
 
 Wget is non-interactive, meaning that it can work in the background, while the user is not logged on. This allows you to start a retrieval and disconnect from the system, letting Wget finish the work. By contrast, most of the Web browsers require constant user's presence, which can be a great hindrance when transferring a lot of data.
 
@@ -448,7 +441,7 @@ Wget has been designed for robustness over slow or unstable network connections;
 
 \subsection {ftp}
 
-The FTP \cite{ftpweb1} \cite{ftpweb2} (File Transfer Protocol) utility program is commonly used for copying files to and from other computers. These computers may be at the same site or at different sites thousands of miles apart. FTP is a general protocol that works on UNIX systems as well as a variety of other (non-UNIX) systems.
+The FTP (File Transfer Protocol) utility program is commonly used for copying files to and from other computers. These computers may be at the same site or at different sites thousands of miles apart. FTP is a general protocol that works on UNIX systems as well as a variety of other (non-UNIX) systems.
 
 To connect your local machine to the remote machine, type
 
@@ -487,7 +480,7 @@ quit & exit ftp environment\\
 
 \subsection{grep}
 
-GREP : Global Regular Expression Print \cite{grepweb}
+GREP : Global Regular Expression Print
 
  	\hspace{10mm}Searches for text in a file
 	
@@ -646,7 +639,7 @@ Write shell script to show various system configurations like
 \end{verbatim}
 
 \subsection{Result}
-The shell script for displaying required system configurations was made and the output was verified. The shell script was run on ArchLinux 4.10.11 and the output file can be viewed at \url{https://github.com/santhisenan/fosslabrecord/exp4out}
+The shell script for displaying required system configurations was made and the output was verified. The shell script was run on ArchLinux 4.10.11 and the output file can be viewed at \url{https://github.com/santhisenan/fosslabrecord/outputs/exp4out}
 
 \begin{refsection}
 \cite{shellbible}
@@ -1276,7 +1269,7 @@ LAMP stack was successfully installed and a sample login form using PHP and mysq
  The prerequisites for this experiment are pyGTK. Install pyGTK by following instructions on this website - \url{http://www.pygtk.org/downloads.html}.
 
  \subsection{Python Code}
- \begin{lstlisting}[language=python]
+ \begin{lstlisting}[language=python, basicstyle = \tiny ]
 import gi
 gi.require_version('Gtk','3.0')
 from gi.repository import Gtk
@@ -1345,7 +1338,8 @@ class calcWindow(Gtk.Window):
 		for button_name in other_buttons:
 			button_name.connect('clicked', button_clicked)
 
-		digits=(button1, button2,button3,button4,button5,button6,button7,button8,button9,button0,openbr,closebr)
+		digits=button1,button2,button3,button4,button5,button6,button7,button8,button9,
+          button0,openbr,closebr)
 		for i in digits:
 			i.connect('clicked', button_clicked)
 
@@ -1399,5 +1393,11 @@ The python script for creating a scientific calculator was made and the script w
 \cite{pyGTK}
 \printbibliography
 \end{refsection} 
+
+\newpage
+\addcontentsline{toc}{section}{References}
+
+\cite{github}
+\printbibliography
  
 \end{document}                       
