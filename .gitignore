@@ -1,2 +1,9 @@
-labrecord.aux
-labrecord.log
+./labrecord.aux
+./labrecord.log      
+./labrecord.tex.bbl  
+./labrecord.bbl      
+./labrecord.tex.blg  
+./labrecord.bcf      
+./labrecord.run.xml  
+./labrecord.toc
+./labrecord.blg      
