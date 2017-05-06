@@ -108,26 +108,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.1}Aim}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2}Script}{31}
+\contentsline {subsection}{\numberline {10.2}Perl scripts}{31}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.3}Result}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Running PHP}{34}
+\contentsline {section}{\numberline {11}Running PHP}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1}Aim}{34}
+\contentsline {subsection}{\numberline {11.1}Aim}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2}Installing LAMP stack}{34}
+\contentsline {subsection}{\numberline {11.2}Installing LAMP stack}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3}PHP Example - Login From files}{35}
+\contentsline {subsection}{\numberline {11.3}PHP Example - Login From files}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4}Result}{37}
+\contentsline {subsection}{\numberline {11.4}Result}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}GUI Programming}{38}
+\contentsline {section}{\numberline {12}GUI Programming}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1}Aim}{38}
+\contentsline {subsection}{\numberline {12.1}Aim}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2}Prerequisites}{38}
+\contentsline {subsection}{\numberline {12.2}Prerequisites}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3}Python Code}{38}
+\contentsline {subsection}{\numberline {12.3}Python Code}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4}Result}{40}
+\contentsline {subsection}{\numberline {12.4}Output}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.5}Result}{40}
