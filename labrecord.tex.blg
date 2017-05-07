@@ -1,0 +1,5 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'labrecord.tex.blg'
+[112] biber-darwin:290> INFO - === Fri Apr 28, 2017, 09:36:24
+[303] Utils.pm:165> ERROR - Cannot find control file 'labrecord.tex.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[303] Biber.pm:112> INFO - ERRORS: 1

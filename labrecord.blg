@@ -1,0 +1,111 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'labrecord.blg'
+[80] biber-darwin:290> INFO - === Sat May  6, 2017, 13:50:47
+[154] Biber.pm:351> INFO - Reading 'labrecord.bcf'
+[321] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[321] Biber.pm:776> INFO - Found 2 citekeys in bib section 1
+[321] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[322] Biber.pm:776> INFO - Found 3 citekeys in bib section 2
+[322] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[322] Biber.pm:776> INFO - Found 5 citekeys in bib section 3
+[322] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[323] Biber.pm:776> INFO - Found 2 citekeys in bib section 4
+[323] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[323] Biber.pm:776> INFO - Found 2 citekeys in bib section 5
+[323] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[323] Biber.pm:776> INFO - Found 2 citekeys in bib section 6
+[324] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[324] Biber.pm:776> INFO - Found 2 citekeys in bib section 7
+[324] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[324] Biber.pm:776> INFO - Found 2 citekeys in bib section 8
+[324] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[324] Biber.pm:776> INFO - Found 2 citekeys in bib section 9
+[325] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[325] Biber.pm:776> INFO - Found 2 citekeys in bib section 10
+[325] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[325] Biber.pm:776> INFO - Found 1 citekeys in bib section 11
+[325] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[325] Biber.pm:776> INFO - Found 1 citekeys in bib section 12
+[326] Biber.pm:776> INFO - Found 1 citekeys in bib section 0
+[481] Biber.pm:3493> INFO - Processing section 0
+[537] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[575] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[576] bibtex.pm:1048> INFO - Found BibTeX data source 'sample.bib'
+[643] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[643] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[643] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[644] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[646] Biber.pm:3493> INFO - Processing section 1
+[646] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 1
+[663] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[663] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[663] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[664] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[667] Biber.pm:3493> INFO - Processing section 2
+[667] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 2
+[735] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[735] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[736] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[736] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[741] Biber.pm:3493> INFO - Processing section 3
+[742] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 3
+[764] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[765] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[765] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[765] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[773] Biber.pm:3493> INFO - Processing section 4
+[773] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 4
+[792] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[792] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[793] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[793] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[796] Biber.pm:3493> INFO - Processing section 5
+[796] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 5
+[817] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[817] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[817] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[818] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[822] Biber.pm:3493> INFO - Processing section 6
+[823] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 6
+[841] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[842] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[842] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[842] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[846] Biber.pm:3493> INFO - Processing section 7
+[846] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 7
+[866] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[866] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[867] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[867] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[870] Biber.pm:3493> INFO - Processing section 8
+[871] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 8
+[888] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[888] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[888] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[888] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[891] Biber.pm:3493> INFO - Processing section 9
+[892] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 9
+[913] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[913] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[913] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[914] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[917] Biber.pm:3493> INFO - Processing section 10
+[917] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 10
+[935] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[935] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[935] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[935] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[938] Biber.pm:3493> INFO - Processing section 11
+[938] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 11
+[952] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[952] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[952] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[953] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[955] Biber.pm:3493> INFO - Processing section 12
+[955] Biber.pm:3657> INFO - Looking for bibtex format file 'sample.bib' for section 12
+[969] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[969] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[969] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[969] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[972] bbl.pm:526> INFO - Writing 'labrecord.bbl' with encoding 'ascii'
+[977] bbl.pm:619> INFO - Output to labrecord.bbl

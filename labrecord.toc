@@ -1,0 +1,139 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Getting started with Linux basic commands for directory operations}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Aim}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Basic Commands}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Directory Structure in Linux}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4}Output}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5}Result}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Linux commands for operations such as redirection, pipes, filters, job control, changing ownership/permissions of files/links/directory.}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Aim}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Redirection of standard Input/Output}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Pipes}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Filters}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Job Control}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6}Permissions}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7}Links}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.8}Result}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Advanced Linux Commands}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Aim}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}curl}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}ssh}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}wget}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}ftp}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}grep}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7}Output}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8}Result}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Shell Programming}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Aim}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Shell Script}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Output}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Result}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Shell script to show various system configurations}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Aim}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Shell Script}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Result}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Menu driven calculator}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Aim}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Shell Script}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Output}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Result}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Script that accepts two arguments from the commad line and operates on them}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Aim}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Shell script}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Output}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4}Result}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Version Control System setup and usage using Git}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}Aim}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2}Theory}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Result}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Shell script which starts on system boot up and kills every process which uses more than a specified amount of memory or CPU}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1}Aim}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2}Shell Script}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3}Output}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.4}Result}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Simple Text Processing using Perl and Awk}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1}Aim}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2}Perl scripts}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3}awk}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.4}Result}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}Running PHP}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1}Aim}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2}Installing LAMP stack}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3}PHP Example - Login From files}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4}Result}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12}GUI Programming}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1}Aim}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2}Prerequisites}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3}Python Code}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.4}Output}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.5}Result}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{40}
