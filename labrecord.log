@@ -1,0 +1,817 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.16)  6 MAY 2017 13:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**labrecord.tex
+(./labrecord.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count88
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count89
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count90
+\decimalpart=\count91
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count92
+\c@listtotal=\count93
+\c@listcount=\count94
+\c@liststart=\count95
+\c@liststop=\count96
+\c@citecount=\count97
+\c@citetotal=\count98
+\c@multicitecount=\count99
+\c@multicitetotal=\count100
+\c@instcount=\count101
+\c@maxnames=\count102
+\c@minnames=\count103
+\c@maxitems=\count104
+\c@minitems=\count105
+\c@citecounter=\count106
+\c@savedcitecounter=\count107
+\c@uniquelist=\count108
+\c@uniquename=\count109
+\c@refsection=\count110
+\c@refsegment=\count111
+\c@maxextratitle=\count112
+\c@maxextratitleyear=\count113
+\c@maxextrayear=\count114
+\c@maxextraalpha=\count115
+\c@abbrvpenalty=\count116
+\c@highnamepenalty=\count117
+\c@lownamepenalty=\count118
+\c@maxparens=\count119
+\c@parenlevel=\count120
+\blx@tempcnta=\count121
+\blx@tempcntb=\count122
+\blx@tempcntc=\count123
+\blx@maxsection=\count124
+\blx@maxsegment@0=\count125
+\blx@notetype=\count126
+\blx@parenlevel@text=\count127
+\blx@parenlevel@foot=\count128
+\blx@sectionciteorder@0=\count129
+\labelnumberwidth=\skip43
+\labelalphawidth=\skip44
+\biblabelsep=\skip45
+\bibitemsep=\skip46
+\bibnamesep=\skip47
+\bibinitsep=\skip48
+\bibparsep=\skip49
+\bibhang=\skip50
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count130
+\c@maxcomprange=\count131
+\c@mincompwidth=\count132
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count133
+\c@savedafterword=\count134
+\c@annotator=\count135
+\c@savedannotator=\count136
+\c@author=\count137
+\c@savedauthor=\count138
+\c@bookauthor=\count139
+\c@savedbookauthor=\count140
+\c@commentator=\count141
+\c@savedcommentator=\count142
+\c@editor=\count143
+\c@savededitor=\count144
+\c@editora=\count145
+\c@savededitora=\count146
+\c@editorb=\count147
+\c@savededitorb=\count148
+\c@editorc=\count149
+\c@savededitorc=\count150
+\c@foreword=\count151
+\c@savedforeword=\count152
+\c@holder=\count153
+\c@savedholder=\count154
+\c@introduction=\count155
+\c@savedintroduction=\count156
+\c@namea=\count157
+\c@savednamea=\count158
+\c@nameb=\count159
+\c@savednameb=\count160
+\c@namec=\count161
+\c@savednamec=\count162
+\c@translator=\count163
+\c@savedtranslator=\count164
+\c@shortauthor=\count165
+\c@savedshortauthor=\count166
+\c@shorteditor=\count167
+\c@savedshorteditor=\count168
+\c@labelname=\count169
+\c@savedlabelname=\count170
+\c@institution=\count171
+\c@savedinstitution=\count172
+\c@lista=\count173
+\c@savedlista=\count174
+\c@listb=\count175
+\c@savedlistb=\count176
+\c@listc=\count177
+\c@savedlistc=\count178
+\c@listd=\count179
+\c@savedlistd=\count180
+\c@liste=\count181
+\c@savedliste=\count182
+\c@listf=\count183
+\c@savedlistf=\count184
+\c@location=\count185
+\c@savedlocation=\count186
+\c@organization=\count187
+\c@savedorganization=\count188
+\c@origlocation=\count189
+\c@savedoriglocation=\count190
+\c@origpublisher=\count191
+\c@savedorigpublisher=\count192
+\c@publisher=\count193
+\c@savedpublisher=\count194
+\c@language=\count195
+\c@savedlanguage=\count196
+\c@pageref=\count197
+\c@savedpageref=\count198
+\shorthandwidth=\skip51
+\shortjournalwidth=\skip52
+\shortserieswidth=\skip53
+\shorttitlewidth=\skip54
+\shortauthorwidth=\skip55
+\shorteditorwidth=\skip56
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count199
+\c@textcitetotal=\count266
+\c@textcitemaxnames=\count267
+\c@biburlnumpenalty=\count268
+\c@biburlucpenalty=\count269
+\c@biburllcpenalty=\count270
+\c@smartand=\count271
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count272
+\c@bbx:relatedtotal=\count273
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/05/14 v3.4 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count274
+\FV@InFile=\read2
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count275
+\FV@StepNumber=\count276
+\FV@OutFile=\write5
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count277
+\lst@gtempboxa=\box27
+\lst@token=\toks15
+\lst@length=\count278
+\lst@currlwidth=\dimen105
+\lst@column=\count279
+\lst@pos=\count280
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count281
+\lst@lineno=\count282
+\lst@maxwidth=\dimen108
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
+\lst@framebox=\box28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count285
+\@quotereset=\count286
+
+(./labrecord.aux)
+\openout1 = `labrecord.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count287
+\scratchdimen=\dimen109
+\scratchbox=\box29
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen110
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout4 = `labrecord.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'labrecord.bbl' found.
+
+(./labrecord.bbl)
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
+\c@lstlisting=\count293
+ <./logo/cet.jpg, id=1, 200.75pt x 223.83624pt>
+File: ./logo/cet.jpg Graphic file (type jpg)
+
+<use ./logo/cet.jpg>
+Package pdftex.def Info: ./logo/cet.jpg used on input line 22.
+(pdftex.def)             Requested size: 345.0pt x 384.73125pt.
+ [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo/
+cet.jpg>] [2
+
+] (./labrecord.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+
+Overfull \hbox (13.50522pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/n/10 ters, job con-trol, chang-ing own-er-ship/per-mis-sions of fi
+les/links/di- 
+ []
+
+[1
+
+])
+\tf@toc=\write6
+\openout6 = `labrecord.toc'.
+
+ [2]
+Overfull \hbox (73.44511pt too wide) in paragraph at lines 61--99
+[][] 
+ []
+
+[3] <./outputs/exp1.jpg, id=24, 413.29407pt x 282.30469pt>
+File: ./outputs/exp1.jpg Graphic file (type jpg)
+
+<use ./outputs/exp1.jpg>
+Package pdftex.def Info: ./outputs/exp1.jpg used on input line 131.
+(pdftex.def)             Requested size: 345.0pt x 235.6611pt.
+\blx@maxsegment@1=\count294
+\blx@sectionciteorder@1=\count295
+Package biblatex Info: Reference section=1 on input line 136.
+Package biblatex Info: Setting label 'refsection:1' on input line 136.
+
+Overfull \hbox (8.94173pt too wide) in paragraph at lines 135--140
+\OT1/cmr/m/n/10 this file - $\OT1/cmtt/m/n/10 https : / / github . com / santhi
+senan / fosslabrecord / outputs / exp1out$
+ []
+
+[4 <./outputs/exp1.jpg>]
+Package biblatex Info: Reference section=0 on input line 140.
+ [5]
+Overfull \hbox (4.97299pt too wide) in paragraph at lines 143--143
+\OT1/cmr/bx/n/14.4 own-er-ship/per-mis-sions of files/links/di-rec-tory. 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 150.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 150.
+ [6] [7] [8]
+Overfull \hbox (10.74715pt too wide) in paragraph at lines 278--278
+ []\OT1/cmtt/m/n/10 -rw-r--r-- 2 stewart stewart 1241088 2009-01-23 15:26 filen
+ame1[] 
+ []
+
+
+Overfull \hbox (10.74715pt too wide) in paragraph at lines 278--278
+ []\OT1/cmtt/m/n/10 -rw-r--r-- 2 stewart stewart 1241088 2009-01-23 15:26 filen
+ame2[] 
+ []
+
+
+Overfull \hbox (10.74715pt too wide) in paragraph at lines 278--278
+ []\OT1/cmtt/m/n/10 -rw-r--r-- 1 stewart stewart       0 2009-01-23 15:26 not\_
+link[] 
+ []
+
+
+Overfull \hbox (378.24394pt too wide) in paragraph at lines 278--278
+ []\OT1/cmtt/m/n/10 Note that whilst the two files appear to occupy 1.2Mb each 
+the actual space used is only 1.2Mb in total as the file only exists once.[] 
+ []
+
+
+Overfull \hbox (246.99509pt too wide) in paragraph at lines 278--278
+ []\OT1/cmtt/m/n/10 The default for the ln command is a hard link. Assuming fil
+ename1 already exists filename2 is created using:[] 
+ []
+
+
+Overfull \hbox (26.49701pt too wide) in paragraph at lines 313--313
+ []\OT1/cmtt/m/n/10 -rw-r--r-- 1 stewart stewart 446464 2009-01-23 15:21 origin
+al_file[] 
+ []
+
+
+Overfull \hbox (126.24614pt too wide) in paragraph at lines 313--313
+ []\OT1/cmtt/m/n/10 lrwxrwxrwx 1 stewart stewart     13 2009-01-23 15:20 softli
+nk_tofile -> original_file[] 
+ []
+
+
+Overfull \hbox (1086.98776pt too wide) in paragraph at lines 313--313
+ []\OT1/cmtt/m/n/10 Note that with a soft link the permissions to the link file
+ are set to full access as the user is contstrained by the permissions on the o
+riginal file. Also note that if the filesize of the original file changes the l
+ink will remain the same (on this system 13 bytes).[] 
+ []
+
+
+Overfull \hbox (981.98868pt too wide) in paragraph at lines 313--313
+ []\OT1/cmtt/m/n/10 If the link is deleted then this will have no impact on the
+ original file, but if the original file is deleted this will result in a broke
+n link. The example below shows how removing the original file results in a err
+or "No such file or directory".[] 
+ []
+
+[9]
+Overfull \hbox (105.24632pt too wide) in paragraph at lines 313--313
+ []\OT1/cmtt/m/n/10 lrwxrwxrwx 1 stewart stewart 13 2009-01-23 15:20 softlink_t
+ofile -> original_file[] 
+ []
+
+
+Overfull \hbox (0.24724pt too wide) in paragraph at lines 313--313
+ []\OT1/cmtt/m/n/10 The -s option is used on the ln command to create a softlin
+k.[] 
+ []
+
+\blx@maxsegment@2=\count296
+\blx@sectionciteorder@2=\count297
+Package biblatex Info: Reference section=2 on input line 343.
+Package biblatex Info: Setting label 'refsection:2' on input line 343.
+[10]
+Package biblatex Info: Reference section=0 on input line 348.
+ [11]
+Overfull \hbox (2.16728pt too wide) in paragraph at lines 357--358
+\OT1/cmr/m/n/10 LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMT
+P,
+ []
+
+
+Overfull \hbox (95.99615pt too wide) in paragraph at lines 398--398
+[]\OT1/cmtt/m/n/10 $ scp localhostfile.txt jsmith@remotehost.example.com:/home/
+jsmith/localhostfile.txt[] 
+ []
+
+
+Overfull \hbox (95.99615pt too wide) in paragraph at lines 403--403
+[]\OT1/cmtt/m/n/10 $ scp localhostfile.txt jsmith@remotehost.example.com:/home/
+jsmith/localhostfile.txt[] 
+ []
+
+[12]
+Overfull \hbox (6.29533pt too wide) in paragraph at lines 428--429
+[]  \OT1/cmr/m/it/10 wget http://www.openss7.org/repos/tarballs/strx25-0.9.2.1.
+tar.bz2 \OT1/cmr/m/n/10 this
+ []
+
+[13]
+Overfull \hbox (5.16722pt too wide) in paragraph at lines 465--479
+[][] 
+ []
+
+[14] [15] <./outputs/advlin1.jpg, id=67, 342.5297pt x 196.48407pt>
+File: ./outputs/advlin1.jpg Graphic file (type jpg)
+
+<use ./outputs/advlin1.jpg>
+Package pdftex.def Info: ./outputs/advlin1.jpg used on input line 547.
+(pdftex.def)             Requested size: 345.0pt x 197.91667pt.
+
+<./outputs/advlinux.jpg, id=68, 486.31688pt x 325.96782pt>
+File: ./outputs/advlinux.jpg Graphic file (type jpg)
+
+<use ./outputs/advlinux.jpg>
+Package pdftex.def Info: ./outputs/advlinux.jpg used on input line 548.
+(pdftex.def)             Requested size: 345.0pt x 231.24478pt.
+ [16 <./outputs/advlin1.jpg> <./outputs/advlinux.jpg>]
+\blx@maxsegment@3=\count298
+\blx@sectionciteorder@3=\count299
+Package biblatex Info: Reference section=3 on input line 555.
+Package biblatex Info: Setting label 'refsection:3' on input line 555.
+
+Overfull \hbox (0.39314pt too wide) in paragraph at lines 562--562
+[]\OT1/cmr/m/it/10 Basic FTP Com-mands\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT
+1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 https : / / www . cs . colostate . edu / helpd
+ocs /
+ []
+
+Package biblatex Info: Reference section=0 on input line 563.
+[17] <./outputs/exp3new.jpg, id=76, 484.05844pt x 149.8097pt>
+File: ./outputs/exp3new.jpg Graphic file (type jpg)
+
+<use ./outputs/exp3new.jpg>
+Package pdftex.def Info: ./outputs/exp3new.jpg used on input line 597.
+(pdftex.def)             Requested size: 345.0pt x 106.77707pt.
+\blx@maxsegment@4=\count300
+\blx@sectionciteorder@4=\count301
+Package biblatex Info: Reference section=4 on input line 602.
+Package biblatex Info: Setting label 'refsection:4' on input line 602.
+ [18 <./outputs/exp3new.jpg>]
+Package biblatex Info: Reference section=0 on input line 606.
+ [19]
+\blx@maxsegment@5=\count302
+\blx@sectionciteorder@5=\count303
+Package biblatex Info: Reference section=5 on input line 644.
+Package biblatex Info: Setting label 'refsection:5' on input line 644.
+Package biblatex Info: Reference section=0 on input line 648.
+ [20] [21]
+<./outputs/simplecalcnew.jpg, id=89, 324.46219pt x 209.28188pt>
+File: ./outputs/simplecalcnew.jpg Graphic file (type jpg)
+
+<use ./outputs/simplecalcnew.jpg>
+Package pdftex.def Info: ./outputs/simplecalcnew.jpg used on input line 706.
+(pdftex.def)             Requested size: 345.0pt x 222.54344pt.
+\blx@maxsegment@6=\count304
+\blx@sectionciteorder@6=\count305
+Package biblatex Info: Reference section=6 on input line 713.
+Package biblatex Info: Setting label 'refsection:6' on input line 713.
+Package biblatex Info: Reference section=0 on input line 717.
+ [22 <./outputs/simplecalcnew.jpg>]
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 758--758
+[]    \OT1/cmtt/m/n/10 echo "Enter the correct number of arguments : ./addnames
+.sh classlist[] 
+ []
+
+<./outputs/addnamesnew.jpg, id=93, 446.41782pt x 182.93344pt>
+File: ./outputs/addnamesnew.jpg Graphic file (type jpg)
+
+<use ./outputs/addnamesnew.jpg>
+Package pdftex.def Info: ./outputs/addnamesnew.jpg used on input line 763.
+(pdftex.def)             Requested size: 345.0pt x 141.37556pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+\blx@maxsegment@7=\count306
+\blx@sectionciteorder@7=\count307
+Package biblatex Info: Reference section=7 on input line 770.
+Package biblatex Info: Setting label 'refsection:7' on input line 770.
+[23]
+Package biblatex Info: Reference section=0 on input line 774.
+ [24 <./outputs/addnamesnew.jpg>]
+Overfull \hbox (77.33856pt too wide) in paragraph at lines 819--834
+[][] 
+ []
+
+[25]
+Overfull \hbox (77.33856pt too wide) in paragraph at lines 845--855
+[][] 
+ []
+
+[26] [27]
+Overfull \hbox (65.4777pt too wide) in paragraph at lines 929--930
+\OT1/cmr/m/n/10 2.10.1. Check out this repos-i-tory in Github - https://github.
+com/santhisenan/fosslabrecord.git. 
+ []
+
+\blx@maxsegment@8=\count308
+\blx@sectionciteorder@8=\count309
+Package biblatex Info: Reference section=8 on input line 931.
+Package biblatex Info: Setting label 'refsection:8' on input line 931.
+Package biblatex Info: Reference section=0 on input line 935.
+[28] <./outputs/killprocessnew.jpg, id=113, 411.03563pt x 137.7647pt>
+File: ./outputs/killprocessnew.jpg Graphic file (type jpg)
+
+<use ./outputs/killprocessnew.jpg>
+Package pdftex.def Info: ./outputs/killprocessnew.jpg used on input line 980.
+(pdftex.def)             Requested size: 345.0pt x 115.63115pt.
+ [29]
+\blx@maxsegment@9=\count310
+\blx@sectionciteorder@9=\count311
+Package biblatex Info: Reference section=9 on input line 986.
+Package biblatex Info: Setting label 'refsection:9' on input line 986.
+Package biblatex Info: Reference section=0 on input line 990.
+ [30 <./outputs/killprocessnew.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+
+ []
+
+\blx@maxsegment@10=\count312
+\blx@sectionciteorder@10=\count313
+Package biblatex Info: Reference section=10 on input line 1084.
+Package biblatex Info: Setting label 'refsection:10' on input line 1084.
+Package biblatex Info: Reference section=0 on input line 1088.
+[32]
+Overfull \hbox (5.6373pt too wide) in paragraph at lines 1136--1137
+[]\OT1/cmr/m/n/10 You can check your PHP by ex-e-cut-ing any PHP file from with
+in /var/www/.
+ []
+
+[33]
+Overfull \hbox (36.99692pt too wide) in paragraph at lines 1155--1155
+ []\OT1/cmtt/m/n/10 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_D
+ATABASE);[] 
+ []
+
+
+Overfull \hbox (168.24577pt too wide) in paragraph at lines 1219--1219
+ []    \OT1/cmtt/m/n/10 $sql = "SELECT * FROM admin WHERE username = '$myuserna
+me' and password = '$mypassword'";[] 
+ []
+
+
+Overfull \hbox (26.49701pt too wide) in paragraph at lines 1219--1219
+ []      \OT1/cmtt/m/n/10 $result = mysqli_query($db,$sql) or die(mysqli_error(
+$db));;[] 
+ []
+
+
+Overfull \hbox (31.74696pt too wide) in paragraph at lines 1219--1219
+ []         \OT1/cmtt/m/n/10 // header('Location: http://localhost/login/welcom
+e.php');[] 
+ []
+
+[34]
+Overfull \hbox (5.4972pt too wide) in paragraph at lines 1219--1219
+ []\OT1/cmtt/m/n/10 <input type="password" placeholder="password" name="passwor
+d">[] 
+ []
+
+
+Overfull \hbox (168.24577pt too wide) in paragraph at lines 1240--1240
+ []   \OT1/cmtt/m/n/10 $ses_sql = mysqli_query($db,"select username from admin 
+where username = '$user_check' ");[] 
+ []
+
+[35]
+\blx@maxsegment@11=\count314
+\blx@sectionciteorder@11=\count315
+Package biblatex Info: Reference section=11 on input line 1256.
+Package biblatex Info: Setting label 'refsection:11' on input line 1256.
+Package biblatex Info: Reference section=0 on input line 1259.
+ [36] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1276.
+
+
+Overfull \hbox (10.25752pt too wide) in paragraph at lines 1281--1282
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[37]
+Overfull \hbox (42.92488pt too wide) in paragraph at lines 1341--1342
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<./outputs/scicalc.jpg, id=147, 128.73094pt x 164.11313pt>
+File: ./outputs/scicalc.jpg Graphic file (type jpg)
+
+<use ./outputs/scicalc.jpg>
+Package pdftex.def Info: ./outputs/scicalc.jpg used on input line 1384.
+(pdftex.def)             Requested size: 100.37537pt x 127.96765pt.
+ [38 <./outputs/scicalc.jpg>]
+\blx@maxsegment@12=\count316
+\blx@sectionciteorder@12=\count317
+Package biblatex Info: Reference section=12 on input line 1392.
+Package biblatex Info: Setting label 'refsection:12' on input line 1392.
+Package biblatex Info: Reference section=0 on input line 1395.
+ [39] [40]
+(./labrecord.aux)
+Package logreq Info: Writing requests to 'labrecord.run.xml'.
+\openout1 = `labrecord.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9559 strings out of 493014
+ 161514 string characters out of 6133351
+ 601290 words of memory out of 5000000
+ 13011 multiletter control sequences out of 15000+600000
+ 8184 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,11n,45p,819b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on labrecord.pdf (42 pages, 523549 bytes).
+PDF statistics:
+ 202 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
